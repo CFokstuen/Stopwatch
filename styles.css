@@ -1,0 +1,188 @@
+:root {
+    --main-font: "Nanum Gothic", sans-serif;
+    --primary-color: #144;
+    --secondary-color: #00FFFF;
+}
+.nanum-gothic-regular {
+    font-family: var(--main-font), sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font), sans-serif;
+    position: relative;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://c.wallhere.com/photos/59/6a/race_cars_Formula_1_race_tracks-119376.jpg!d');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: grayscale(100%) brightness(0.25);
+    z-index: -1;
+}
+.header h1 {
+    margin: 0;
+    font-size: 6rem;
+    color: var(--secondary-color);
+}
+.header {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: 4rem;
+    color: var(--secondary-color);
+}
+.controls {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 25px;
+    border-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 5px;
+    margin: -20px 10px 20px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.buttons:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.clear-times {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 25px;
+    border-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 5px;
+    margin: -20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.clear-times:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.laps-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.laps-container h4 {
+    margin: 0 0 10px;
+}
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+.laps-scroll {
+    overflow-y: scroll;
+    width: calc(100% + 8px);
+    height: calc(100% - 50px);
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary-color) var(--primary-color);
+    padding-right: 8px;
+}
+.laps-scroll::-webkit-scrollbar {
+    width: 8px;
+}
+.laps-scroll::-webkit-scrollbar-track {
+    background-color: var(--primary-color);
+}
+.laps-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+}
+.laps-container ul {
+    list-style-type: none;
+    padding: 0 0 0 103px;
+    margin: 0;
+    text-align: left;
+}
+.laps-container li {
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 4rem;
+    }
+    .timer {
+        width: 250px;
+        height: 80px;
+        font-size: 3rem;
+    }
+    .laps-container {
+        width: 250px;
+        height: 250px;
+    }
+    .clear-times {
+        width: 220px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header h1 {
+        font-size: 3rem;
+    }
+    .timer {
+        width: 200px;
+        height: 60px;
+        font-size: 2rem;
+    }
+    .laps-container {
+        width: 200px;
+        height: 200px;
+    }
+    .clear-times {
+        width: 180px;
+    }
+}
