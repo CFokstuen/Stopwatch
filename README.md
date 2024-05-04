@@ -1,4 +1,5 @@
-**Stopwatch**
+<h1>Stopwatch inJavaScript</h1>
+---------------------------------------------------------------------------------------
 
 The stopwatch application provides a comprehensive set of functionalities to measure and track elapsed time. The core features include:
 
