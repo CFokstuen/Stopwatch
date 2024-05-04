@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple Stopwatch">
+    <meta name="author" content="Carl Fokstuen">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="header">
+        <h1>
+            Stopwatch
+        </h1>
+    </div>
+    <div class="timer">
+        <time id="timer" aria-label="stopwatch time">
+            00:00:00
+        </time>
+    </div>
+    <div class="controls" role="group" aria-label="stopwatch controls">
+        <button class="buttons" id="start">
+            Start
+        </button>
+        <button class="buttons" id="stop">
+            Stop
+        </button>
+        <button class="buttons" id="reset">
+            Reset
+        </button>
+        <button class="buttons" id="lap">
+            Lap
+        </button>
+    </div>
+    <div class="laps-container">
+        <h4>
+            Lap Times
+        </h4>
+        <div class="separator"></div>
+        <div class="laps-scroll">
+            <section aria-label="lap times">
+                <ul id="laps"></ul>
+            </section>
+        </div>
+    </div>
+    <button class="clear-times" id="clear-laps">
+        Clear Lap Times
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
