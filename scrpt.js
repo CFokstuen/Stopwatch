@@ -36,13 +36,19 @@ function stopTimer() {
 
 document.getElementById('stop').addEventListener('click', stopTimer);
 
+
 // Function to reset the timer
 function resetTimer() {
     clearInterval(intervalId);
     elapsedTime = 0;
     document.getElementById('timer').textContent = formatTime(elapsedTime);
-}
 
+    // Clear the lapTimes array
+    lapTimes = [];
+
+    // Clear the displayed lap times
+    document.getElementById('laps').innerHTML = '';
+}
 document.getElementById('reset').addEventListener('click', resetTimer);
 
 // Function to record lap times
