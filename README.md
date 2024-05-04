@@ -1,14 +1,26 @@
 <div align="center">
-  <h1>Stopwatch in JavaScript</h1>
+  <h1>
+    Stopwatch in JavaScript
+  </h1>
 </div>
 
-<h3>Project used:</h3>
+<div align="center">
+  <h3>
+    Languages Used:
+  </h3>
+</div>
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="50" height="50"><br>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="50" height="50"><br>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="50" height="50">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="50" height="50">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50">
+</p>
 
-<h3>Summary</h3>
+<div align="center">
+  <h3>
+    Summary
+  </h3>
+</div>
 
 The stopwatch application provides a comprehensive set of functionalities to measure and track elapsed time. The core features include:
 
@@ -30,7 +42,10 @@ The stopwatch application provides a comprehensive set of functionalities to mea
 
 These functionalities collectively provide users with a comprehensive and intuitive stopwatch experience, enabling them to accurately measure and track elapsed time, record multiple lap times, and manage the recorded data effectively.
 
-
-<h3>Image of project</h3>
+<div align="center">
+  <h3>
+    Image of project
+  </h3>
+</div>
 
 ![Stopwatch Application](https://github.com/CFokstuen/Stopwatch/blob/main/Stopwatch.jpg)
