@@ -1,6 +1,6 @@
 <h1>Stopwatch in JavaScript</h1>
 
-<h3>Project used:</h3><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="50" height="50">, <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="50" height="50">, <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50">
+<h3>Project used:</h3><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="50" height="50"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="50" height="50"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50">
 
 <h3>Summary</h3>
 
@@ -26,4 +26,5 @@ These functionalities collectively provide users with a comprehensive and intuit
 
 
 <h3>Image of project</h3>
+
 ![Stopwatch Application](https://github.com/CFokstuen/Stopwatch/blob/main/Stopwatch.jpg)
