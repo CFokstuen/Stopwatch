@@ -19,4 +19,5 @@ The stopwatch application provides a comprehensive set of functionalities to mea
 8. Clear Lap Times: The stopwatch includes a "Clear Lap Times" button, which allows users to remove all the recorded lap times from the display. This feature provides a convenient way to start fresh and clear the lap time history.
 
 These functionalities collectively provide users with a comprehensive and intuitive stopwatch experience, enabling them to accurately measure and track elapsed time, record multiple lap times, and manage the recorded data effectively.
-![Alt text]((https://github.com/CFokstuen/Stopwatch/blob/main/Stopwatch.jpg)
+
+![Stopwatch Application](https://github.com/CFokstuen/Stopwatch/blob/main/Stopwatch.jpg)
