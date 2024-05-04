@@ -1,3 +1,5 @@
+**Stopwatch**
+
 The stopwatch application provides a comprehensive set of functionalities to measure and track elapsed time. The core features include:
 
 1. Timer Display: The stopwatch prominently displays the elapsed time in a clear and readable format, showing minutes, seconds, and milliseconds.
