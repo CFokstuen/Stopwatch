@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    Languages Used:
+    Languages Used
   </h3>
 </div>
 
